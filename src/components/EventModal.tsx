@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { X, Calendar, Clock, AlignLeft, Video, Trash2 } from 'lucide-react';
+import { X, Calendar, AlignLeft, Video, Trash2 } from 'lucide-react';
 import { useEvents, CalendarEvent } from '../contexts/EventContext';
 import { useAuth } from '../contexts/AuthContext';
 import { createInstantMeetLink } from '../utils/meetUtils';
