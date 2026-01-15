@@ -1,5 +1,3 @@
-import { User } from 'firebase/auth';
-
 /**
  * Generate a real Google Meet link using Google Calendar API
  * This creates a temporary calendar event with a Meet link, then extracts the link
